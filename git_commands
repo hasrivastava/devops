@@ -12,4 +12,5 @@ git config --global user.email "himanshusrivastav537@gmail.com"
 git checkout -b newbranchname #used to switch the branch
 git remote -v
 git pull
-git push 
+git push
+git fetch
