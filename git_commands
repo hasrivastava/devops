@@ -1,16 +1,17 @@
-git init
-git status
-git add
-git rm --cached
-git commit -m "adding message"
-git log
-git restore
-git log --oneline
+git init #Initialise an empty git repository on local
+git status #show the status of git repositiry
+git add # adding file to git
+git rm --cached #remove the file from stage to untrack
+git commit -m "adding message" #Commit all the file to git
+git log #get all the commit status
+git restore #restore the file from git
+git log --oneline 
 git log --oneline --pretty
-git config --global user.name "hasrivastava"
-git config --global user.email "himanshusrivastav537@gmail.com"
+git config --global user.name "hasrivastava" #assign the author name
+git config --global user.email "himanshusrivastav537@gmail.com" #assign the author email-id
 git checkout -b newbranchname #used to switch the branch
-git remote -v
-git pull
-git push
-git fetch
+git remote -v #see the origin url
+git clone # Clone an existing git repository
+git pull #pull from existing branch of github to local
+git push #push from local to github
+git fetch #pull from all branches of github repository to local
