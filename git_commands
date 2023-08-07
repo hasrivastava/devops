@@ -10,3 +10,4 @@ git log --oneline --pretty
 git config --global user.name "hasrivastava"
 git config --global user.email "himanshusrivastav537@gmail.com"
 git checkout -b newbranchname #used to switch the branch
+git remote -v
